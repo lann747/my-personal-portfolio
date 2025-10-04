@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Code, Cpu, Palette, Rocket } from "lucide-react";
 
@@ -85,7 +86,7 @@ export default function About() {
                 className="relative z-10 w-80 h-80 lg:w-96 lg:h-96"
               >
                 <img
-                  src="https://i.ibb.co/2KzMMLF/about-sample.png"
+                  src="../images/profil2.jpg"
                   alt="Lantera - Web Developer & AI Enthusiast"
                   className="h-full w-full rounded-3xl border-8 border-white object-cover shadow-2xl"
                 />
@@ -140,7 +141,7 @@ export default function About() {
               <p className="text-lg leading-relaxed text-slate-600">
                 Hello! I'm{" "}
                 <span className="font-semibold text-sky-600">Lantera</span>, a
-                passionate third-year IT student specializing in modern web
+                passionate second-year IT student specializing in modern web
                 technologies and artificial intelligence. I bridge the gap
                 between innovative design and technical execution.
               </p>

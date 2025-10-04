@@ -37,7 +37,7 @@ export default function Contact() {
     { icon: <Instagram className="w-5 h-5" />, href: "#", label: "Instagram" },
     {
       icon: <Mail className="w-5 h-5" />,
-      href: "mailto:lantera@example.com",
+      href: "mailto:alanlann575@gmail.com",
       label: "Email",
     },
   ];
@@ -45,17 +45,17 @@ export default function Contact() {
   const contactInfo = [
     {
       icon: <Mail className="w-5 h-5" />,
-      text: "lantera@example.com",
-      href: "mailto:lantera@example.com",
+      text: "alanlann575@gmail.com",
+      href: "mailto:alanlann575@gmail.com",
     },
     {
       icon: <Phone className="w-5 h-5" />,
-      text: "+62 812-3456-7890",
-      href: "tel:+6281234567890",
+      text: "+62 8963 3867 225",
+      href: "tel:+6289633867225",
     },
     {
       icon: <MapPin className="w-5 h-5" />,
-      text: "Jakarta, Indonesia",
+      text: "Bengkulu, Indonesia",
       href: "#",
     },
   ];

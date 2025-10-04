@@ -70,15 +70,15 @@ export default function Navbar() {
             onClick={(e) => handleScroll(e, "#home")}
             className="flex items-center space-x-2 text-xl font-bold tracking-tight"
           >
-            <div className="w-8 h-8 bg-gradient-to-br from-sky-400 to-blue-500 rounded-lg flex items-center justify-center">
+            {/* <div className="w-8 h-8 bg-gradient-to-br from-sky-400 to-blue-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-semibold text-sm">L</span>
-            </div>
+            </div> */}
             <span
               className={`transition-colors ${
                 isScrolled ? "text-sky-700" : "text-white"
               }`}
             >
-              Lantera<span className="text-sky-500">.</span>
+              Lantera<span className="text-sky-500">M</span>
             </span>
           </a>
 

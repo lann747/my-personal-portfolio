@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -54,7 +55,7 @@ export default function Hero() {
           >
             Hi, I'm{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-blue-500">
-              Lantera
+              Lantera Meunasah
             </span>
           </motion.h1>
 
@@ -136,7 +137,7 @@ export default function Hero() {
             >
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
                 <motion.img
-                  src="https://i.ibb.co/fxpFXd7/profile-sample.png"
+                  src="/images/profil.jpg"
                   alt="Lantera - Web Developer"
                   className="w-full h-full object-cover rounded-3xl shadow-2xl border-8 border-white"
                   whileHover={{ scale: 1.02 }}

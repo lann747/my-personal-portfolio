@@ -8,6 +8,7 @@ import {
   Linkedin,
   Instagram,
 } from "lucide-react";
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Footer() {
@@ -71,6 +72,9 @@ export default function Footer() {
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-sky-300 to-blue-200 bg-clip-text text-transparent">
                 Lantera
+                <span className="text-2xl font-bold bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent">
+                  M
+                </span>
               </span>
             </div>
 
@@ -82,6 +86,7 @@ export default function Footer() {
             </p>
 
             <div className="flex space-x-4 pt-4">
+              // eslint-disable-next-line no-unused-vars
               {socialLinks.map(({ icon: Icon, href, label }, i) => (
                 <motion.a
                   key={i}
@@ -126,7 +131,7 @@ export default function Footer() {
                 whileHover={{ x: 4 }}
               >
                 <Mail className="w-4 h-4" />
-                <span>lantera@example.com</span>
+                <span>alanlann575@gmail.com</span>
               </motion.a>
 
               <div className="flex items-center space-x-3 text-slate-300">
@@ -155,14 +160,7 @@ export default function Footer() {
           </p>
 
           <div className="flex items-center gap-2">
-            <span>Made with</span>
-            <motion.div
-              animate={{ scale: [1, 1.2, 1] }}
-              transition={{ duration: 1.5, repeat: Infinity }}
-            >
-              <Heart className="w-4 h-4 text-red-400 fill-current" />
-            </motion.div>
-            <span>using</span>
+            <span>Made with using</span>
             <span className="text-sky-300 font-medium">React</span>
             <span>&</span>
             <span className="text-sky-300 font-medium">Tailwind CSS</span>
