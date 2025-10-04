@@ -1,0 +1,26 @@
+[
+  {
+    "title": "React JS Fundamentals",
+    "issuer": "Dicoding Indonesia",
+    "year": "2025",
+    "file": "react.png"
+  },
+  {
+    "title": "Artificial Intelligence for Everyone",
+    "issuer": "Coursera - Andrew Ng",
+    "year": "2024",
+    "file": "ai.png"
+  },
+  {
+    "title": "Frontend Web Development",
+    "issuer": "BuildWith Angga",
+    "year": "2025",
+    "file": "frontend.png"
+  },
+  {
+    "title": "UI/UX Design Fundamentals",
+    "issuer": "Google",
+    "year": "2025",
+    "file": "uiux.png"
+  }
+]
