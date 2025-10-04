@@ -1,16 +1,101 @@
-# React + Vite
+# My Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Website](https://img.shields.io/badge/Website-live-blue)](https://lann747.github.io/my-personal-portfolio/)
 
-Currently, two official plugins are available:
+Deskripsi singkat:  
+Website portfolio pribadi untuk menampilkan profil, keahlian, proyek, kontak, dan karya saya sebagai web developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠 Teknologi yang Digunakan
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React  
+- Vite  
+- Tailwind CSS  
+- Framer Motion  
+- lucide‑react (ikon)  
+- ESLint  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Cara Menjalankan (Development)
+
+1. Clone repo  
+   ```bash
+   git clone https://github.com/lann747/my-personal-portfolio.git
+   cd my-personal-portfolio
+   ```
+
+2. Install dependencies  
+   ```bash
+   npm install
+   ```
+
+3. Jalankan server dev  
+   ```bash
+   npm run dev
+   ```
+
+4. Buka browser → `http://localhost:5173` (atau port yang muncul di terminal)  
+
+---
+
+## 📦 Build & Deploy ke GitHub Pages
+
+1. Pastikan di `vite.config.js` sudah ada:
+   ```js
+   base: '/my-personal-portfolio/',
+   ```
+
+2. Pastikan file logo, gambar, dan aset lainnya berada di folder `public/`.
+
+3. Jalankan:
+   ```bash
+   npm run build
+   npm run deploy
+   ```
+
+4. Di GitHub → Settings → Pages → Pastikan branch `gh-pages` dipilih sebagai source halaman.
+
+5. Akses website melalui:  
+   `https://lann747.github.io/my-personal-portfolio/`
+
+---
+
+## 🔍 Struktur Project
+
+```
+my-personal-portfolio/
+├── public/
+│   ├── images/           ← file gambar yang diakses langsung (profil, logo, dll)
+│   ├── favicon, logo, dll
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── assets/
+│   └── main.jsx, App.jsx
+├── vite.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## ✨ Tips Khusus
+
+- Pastikan nama file gambar **case-sensitive** (huruf besar/kecil harus sesuai) agar tidak gagal di GitHub Pages.  
+- Gunakan path gambar dari `public/` dengan `src="./images/nama-file.jpg"`.  
+- Jika favicon tidak muncul setelah deploy, coba bersihkan cache browser (`Ctrl + Shift + R` / force reload).  
+
+---
+
+## 📬 Kontak & Kontribusi
+
+Kalau kamu menemukan bug atau punya ide peningkatan, silakan buat issue atau pull request 😊  
+Terima kasih sudah melihat 🙏  
+
+---
+
+## 🧾 License
+
+Original by Lantera
